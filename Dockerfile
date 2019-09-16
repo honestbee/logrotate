@@ -4,6 +4,7 @@ ENV CRON_SCHEDULE='0 * * * *' \
     LOGROTATE_SIZE='100M' \
     LOGROTATE_MODE='copytruncate' \
     LOGROTATE_PATTERN='/logs/*.log' \
+    SU_CONFIG='root root' \
     LOGROTATE_ROTATE='0'
 
 RUN apk --no-cache add logrotate tini gettext libintl \
