@@ -46,6 +46,8 @@ Most options below are substituted into the config file for logrotate, so please
 |`LOGROTATE_MODE`|`copytruncate`|Mode of log rotation|
 |`LOGROTATE_PATTERN`|`/logs/*.log`|Path pattern of log files to manage|
 |`LOGROTATE_ROTATE`|`0`|Number of old log files to keep|
+|`SU_CONFIG`|`root root`|Su user group|
+|`MAX_AGE`|`2`|Number of days to keep the log files|
 
 ## Alternatives
 
